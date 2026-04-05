@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ThegxxHub - Compartilhamento de scripts de Roblox. Encontre, avalie e compartilhe scripts Lua de qualidade.">
+  <meta name="theme-color" content="#e60000">
+
+  <title>ThegxxHub - Scripts de Roblox</title>
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23e60000'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='18' font-weight='bold' font-family='monospace'>&lt;/&gt;</text></svg>">
+
+  <!-- Supabase browser SDK served locally by Express -->
+  <script src="/vendor/supabase.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <!-- Fixed header -->
+  <header class="site-header" id="site-header">
+    <!-- Rendered by app.js -->
+  </header>
+
+  <!-- Main app container -->
+  <div id="app">
+    <div class="loading-container" style="height:100vh;">
+      <div class="spinner"></div>
+      <span>Loading...</span>
+    </div>
+  </div>
+
+  <!-- Toast for copy notification -->
+  <div id="copy-toast" class="copy-toast"></div>
+
+  <!-- JavaScript - order matters -->
+  <script src="/js/i18n.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+  <script src="/js/router.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/pages/home.js"></script>
+  <script src="/js/pages/scripts.js"></script>
+  <script src="/js/pages/executors.js"></script>
+  <script src="/js/pages/post.js"></script>
+  <script src="/js/pages/auth.js"></script>
+  <script src="/js/pages/admin.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
